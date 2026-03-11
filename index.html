@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Breeds Gallery</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #6366f1; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans flex flex-col h-screen">
+
+    <header class="bg-indigo-600 text-white p-6 shadow-lg z-10">
+        <h1 class="text-3xl font-bold text-center tracking-tight">
+            Different Types of Cats in the World
+        </h1>
+    </header>
+
+    <div class="flex flex-1 flex-col md:flex-row overflow-hidden">
+        
+        <aside class="w-full md:w-64 bg-cyan-400 border-r border-slate-200 p-6 overflow-y-auto">
+            <h2 class="font-bold text-sm mb-4 text-indigo-600 uppercase tracking-widest">Navigation</h2>
+            <nav class="space-y-2">
+                <a href="" class="block p-3 bg-indigo-50 text-indigo-700 font-medium rounded-lg">All Breeds</a>
+                <a href="" class="block p-3 hover:bg-slate-50 rounded-lg transition">Long Hair</a>
+                <a href="" class="block p-3 hover:bg-slate-50 rounded-lg transition">Short Hair</a>
+                <a href="" class="block p-3 hover:bg-slate-50 rounded-lg transition">Hairless</a>
+                <a href="" class="block p-3 hover:bg-slate-50 rounded-lg transition">Cat Care 101</a>
+            </nav>
+            <div class="mt-8 p-4 bg-amber-50 rounded-xl border border-amber-100">
+                <p class="text-xs text-amber-800"><strong>Fun Fact:</strong> Cats sleep for 70% of their lives!</p>
+            </div>
+        </aside>
+
+        <main class="flex-1 p-6 md:p-10 overflow-y-auto bg-slate-50">
+            <h2 class="text-2xl font-bold mb-8 border-b pb-2">Familiarize with Every Breeds</h2>
+            
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+
+                <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 group">
+                    <img src="maine-coon-cat-on-white-background.webp" alt="Maine Coon" class=" w-half h-half object-cover group-hover:scale-105 transition duration-500">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-600 mb-2">Maine Coon</h3>
+                        <p class="text-slate-600 leading-relaxed">Maine Coon is a large, long-haired domesticated cat breed originating in the U.S. state of Maine, where it is the official state cat.</p>
+                        <br>
+                        <p class="text-slate-600 leading-relaxed">The "Gentle Giant." These cats are known for their massive size, social personalities, and bushy tails that look like raccoons.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 group">
+                    <img src="photo-1568309386325-ef86f13ac533.webp" alt="Siamese" class="w-half h-half object-cover group-hover:scale-105 transition duration-500">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-600 mb-2">Siamese</h3>
+                        <p class="text-slate-600 leading-relaxed">Is one of the first distinctly recognised breeds of cat. It is selectively bred since the end of the 19th-century from the Wichianmat landrace</p>
+                        <br>
+                        <p class="text-slate-600 leading-relaxed">Elegant and talkative. Siamese cats have striking blue eyes and a unique "pointed" coat that changes color with temperature.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 group">
+                    <img src="bengal-cat-resting-white-background-and-wooden-log-scaled.webp" alt="Bengal" class="w-half h-half object-cover group-hover:scale-105 transition duration-500">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-600 mb-2">Bengal</h3>
+                        <p class="text-slate-600 leading-relaxed">The Bengal cat is a breed of hybrid cat created from crossbreeding an Asian leopard cat to domestic cats (Prionailurus bengalensis & Felis catus), especially the spotted tabby Egyptian Mau.</p>
+                        <br>
+                        <p class="text-slate-600 leading-relaxed">Athletic and wild-looking. These cats are descended from Asian Leopard Cats and love to climb, jump, and even swim!</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 group">
+                    <img src="sphynx-cat-photos-by-alicia-rius-5.webp" alt="Sphynx" class="w-half h-half object-cover group-hover:scale-105 transition duration-500">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-600 mb-2">Sphynx</h3>
+                        <p class="text-slate-600 leading-relaxed">is a breed of cat known for its lack of fur. Hairlessness in cats is a naturally occurring genetic mutation, and the Sphynx was developed through selective breeding of these animals</p>
+                        <br>
+                        <p class="text-slate-600 leading-relaxed">Unique and hairless. Though they look different, they are incredibly affectionate and love cuddling to stay warm.</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-slate-100 group">
+                    <img src="cat-silver.webp" alt="Sphynx" class="w-half h-half object-cover group-hover:scale-105 transition duration-500">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-indigo-600 mb-2">Persian</h3>
+                        <p class="text-slate-600 leading-relaxed">The Persian cat, also known as the Persian Longhair or simply Persian, is a long-haired traditional breed of cat characterised by a round face and petite, but not flat and not smashed in, muzzle.</p>
+                        <br>
+                        <p class="text-slate-600 leading-relaxed">The two breeds were combined in order to produce a sturdy, short-nosed cat with a coat that was silky in texture, yet dense and full of body.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mt-12 p-8 bg-indigo-100 rounded-2xl text-center">
+                <p class="text-indigo-800 font-medium italic">"A cat-less house is just a house; a house with a cat is a home."</p>
+            </div>
+        </main>
+    </div>
+
+    <footer class="bg-slate-900 text-slate-400 p-4 text-center text-xs">
+        <p>&copy; 2026 World of Cats Directory • Scroll for more</p>
+    </footer>
+
+</body>
+</html>
